@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/e.chow/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"s
 alias chrome="open -a 'Google Chrome'"
 alias czshrc="code ~/.zshrc"
-alias dotfiles='/usr/bin/git --git-dir=/Users/e.chow/.dotfiles/ --work-tree=/Users/e.chow'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # alias loadnvm='export NVM_DIR="$HOME/.nvm" && . $(brew --prefix nvm)/nvm.sh'
 alias rm=trash
 alias szshrc="source ~/.zshrc"
