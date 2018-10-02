@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 alias chrome="open -a 'Google Chrome'"
 alias czshrc="code ~/.zshrc"
 alias dotfiles='/usr/bin/git --git-dir=/Users/e.chow/.dotfiles/ --work-tree=/Users/e.chow'
-alias loadnvm='export NVM_DIR="$HOME/.nvm" && . $(brew --prefix nvm)/nvm.sh'
+# alias loadnvm='export NVM_DIR="$HOME/.nvm" && . $(brew --prefix nvm)/nvm.sh'
 alias rm=trash
 alias szshrc="source ~/.zshrc"
 
@@ -115,8 +115,8 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:GOPATH/bin:GOROOT/bin
 
 # NVM loads slowly, moved to alias
-# export NVM_DIR="$HOME/.nvm"
-# . $(brew --prefix nvm)/nvm.sh
+export NVM_DIR="$HOME/.nvm"
+. $(brew --prefix nvm)/nvm.sh
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vcs dir rbenv)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs status load)
