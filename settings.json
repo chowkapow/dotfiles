@@ -1,18 +1,13 @@
 {
-	"beautify.config": {
-		// Short objects = one line
-		"brace_style": "collapse, preserve-inline",
-		"indent_with_tabs": true
-	},
-	// Beautify on save
-	"editor.formatOnSave": true,
-	"editor.lineNumbers": "relative",
-	"editor.tabSize": 2,
-	"editor.wordWrap": "on",
-	"explorer.confirmDragAndDrop": false,
-	"files.insertFinalNewline": true,
-	"terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
-	"terminal.integrated.fontSize": 14,
-	"terminal.integrated.shell.osx": "zsh",
-	"window.zoomLevel": 0,
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "relative",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "explorer.confirmDragAndDrop": false,
+  "files.insertFinalNewline": true,
+  "terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.shell.osx": "zsh",
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Panda Syntax"
 }
