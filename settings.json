@@ -8,6 +8,17 @@
   "terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.shell.osx": "zsh",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["g", "r"],
+      "commands": [
+        {
+          "command": "editor.action.referenceSearch.trigger",
+          "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+        }
+      ]
+    }
+  ],
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Panda Syntax"
 }

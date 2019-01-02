@@ -104,6 +104,8 @@ source $ZSH/oh-my-zsh.sh
 alias chrome="open -a 'Google Chrome'"
 alias czshrc="code ~/.zshrc"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias gcod='git checkout develop'
+alias grbd='git rebase develop'
 # alias loadnvm='export NVM_DIR="$HOME/.nvm" && . $(brew --prefix nvm)/nvm.sh'
 alias rm=trash
 alias szshrc="source ~/.zshrc"
