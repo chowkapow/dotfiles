@@ -21,5 +21,6 @@
     }
   ],
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Ayu Mirage Bordered"
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.iconTheme": "eq-material-theme-icons-palenight"
 }
