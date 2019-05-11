@@ -11,7 +11,10 @@
   "terminal.integrated.shell.osx": "zsh",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["g", "r"],
+      "before": [
+        "g",
+        "r"
+      ],
       "commands": [
         {
           "command": "editor.action.referenceSearch.trigger",
@@ -21,6 +24,9 @@
     }
   ],
   "window.zoomLevel": 0,
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#ffff"
+  },
   "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "workbench.iconTheme": "eq-material-theme-icons-palenight"
 }
