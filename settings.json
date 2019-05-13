@@ -25,7 +25,8 @@
   ],
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
-    "editorLineNumber.foreground": "#ffff"
+    "editorLineNumber.activeForeground": "#ffff00",
+    "editorLineNumber.foreground": "#f8f8ff",
   },
   "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "workbench.iconTheme": "eq-material-theme-icons-palenight"
