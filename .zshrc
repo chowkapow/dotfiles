@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -64,7 +64,6 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  zsh-autosuggestions
 )
 
 # Homebrew completions
@@ -104,14 +103,10 @@ source $ZSH/oh-my-zsh.sh
 alias chrome="open -a 'Google Chrome'"
 alias czshrc="code ~/.zshrc"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias gcod='git checkout develop'
-alias grbd='git rebase develop'
+alias gcod='git checkout development'
+alias grbd='git rebase development'
 # alias loadnvm='export NVM_DIR="$HOME/.nvm" && . $(brew --prefix nvm)/nvm.sh'
-alias rm=trash
 alias szshrc="source ~/.zshrc"
-
-# Load z
-. /usr/local/etc/profile.d/z.sh
 
 # Load Go
 export GOPATH=$HOME/go
@@ -122,5 +117,4 @@ export PATH=$PATH:GOPATH/bin:GOROOT/bin
 export NVM_DIR="$HOME/.nvm"
 . $(brew --prefix nvm)/nvm.sh
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vcs dir rbenv)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs status load)
+prompt_context() {}
