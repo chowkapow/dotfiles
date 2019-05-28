@@ -11,21 +11,6 @@
     "when": "terminalFocus"
   },
   {
-    "key": "shift+cmd+",
-    "command": "colonize.newline",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+enter",
-    "command": "-colonize.newline",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+enter",
-    "command": "colonize.endline",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "shift+enter",
     "command": "-colonize.endline",
     "when": "editorTextFocus"
@@ -34,15 +19,6 @@
     "key": "shift+enter",
     "command": "colonize.hold",
     "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+alt+enter",
-    "command": "-colonize.hold",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "shift+cmd+enter",
-    "command": "colonize.newline"
   },
   {
     "key": "cmd+e",
