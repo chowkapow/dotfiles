@@ -26,5 +26,7 @@
     "editorLineNumber.foreground": "#808080"
   },
   "workbench.colorTheme": "Material Theme Palenight High Contrast",
-  "workbench.iconTheme": "material-icon-theme"
+  "[yaml]": {
+    "editor.formatOnSave": false
+  }
 }
