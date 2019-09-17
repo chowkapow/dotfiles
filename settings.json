@@ -5,6 +5,8 @@
   "editor.wordWrap": "on",
   "explorer.confirmDragAndDrop": false,
   "files.insertFinalNewline": true,
+  "git.enableSmartCommit": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "prettier.singleQuote": true,
   "terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
   "terminal.integrated.fontSize": 14,
