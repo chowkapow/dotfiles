@@ -1,9 +1,10 @@
 [user]
 	email = eric.zjp.chow@gmail.com
 	name = Eric Chow
-	username = chowkapow
 [alias]
 	st = status
+	cmsg = commit -m
+	cam = commit -am
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
