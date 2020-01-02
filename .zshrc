@@ -118,4 +118,13 @@ export PATH=$PATH:GOPATH/bin:GOROOT/bin
 export NVM_DIR="$HOME/.nvm"
 . $(brew --prefix nvm)/nvm.sh
 
+# pyenv
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
+
 prompt_context() {}
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
