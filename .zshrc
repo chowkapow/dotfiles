@@ -63,6 +63,7 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  docker docker-compose
   git
   zsh-autosuggestions
 )
@@ -101,11 +102,8 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias ohmyzsh="mate ~/.oh-my-zsh"s
-alias chrome="open -a 'Google Chrome'"
 alias czshrc="code ~/.zshrc"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias gcod='git checkout development'
-alias grbd='git rebase development'
 # alias loadnvm='export NVM_DIR="$HOME/.nvm" && . $(brew --prefix nvm)/nvm.sh'
 alias szshrc="source ~/.zshrc"
 
@@ -124,5 +122,8 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+
+# poetry
+export PATH="$HOME/.poetry/bin:$PATH"
 
 prompt_context() {}
