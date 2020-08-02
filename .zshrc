@@ -65,6 +65,7 @@ ZSH_THEME="agnoster"
 plugins=(
   docker docker-compose
   git
+  poetry
   zsh-autosuggestions
 )
 
@@ -103,9 +104,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias ohmyzsh="mate ~/.oh-my-zsh"s
 alias czshrc="code ~/.zshrc"
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-# alias loadnvm='export NVM_DIR="$HOME/.nvm" && . $(brew --prefix nvm)/nvm.sh'
+alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias gcom="git checkout master"
+alias loadnvm="export NVM_DIR="$HOME/.nvm" && . $(brew --prefix nvm)/nvm.sh"
 alias szshrc="source ~/.zshrc"
+alias vi="nvim"
+alias vim="nvim"
 
 # Load Go
 export GOPATH=$HOME/go
@@ -113,8 +117,8 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:GOPATH/bin:GOROOT/bin
 
 # NVM loads slowly, moved to alias
-export NVM_DIR="$HOME/.nvm"
-. $(brew --prefix nvm)/nvm.sh
+# export NVM_DIR="$HOME/.nvm"
+# . $(brew --prefix nvm)/nvm.sh
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
@@ -125,5 +129,11 @@ fi
 
 # poetry
 export PATH="$HOME/.poetry/bin:$PATH"
+
+# z
+if command -v brew >/dev/null 2>&1; then
+	# Load rupa's z if installed
+	[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh
+fi
 
 prompt_context() {}
