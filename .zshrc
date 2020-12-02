@@ -111,14 +111,27 @@ alias szshrc="source ~/.zshrc"
 alias vi="nvim"
 alias vim="nvim"
 
-# Load Go
+# Clear PATH
+if [ -f /etc/profile ]; then
+    PATH=""
+    source /etc/profile
+fi
+
+# Go
 export GOPATH=$HOME/go
 export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:GOPATH/bin:GOROOT/bin
+export PATH=GOPATH/bin:GOROOT/bin:$PATH
+
+# Java
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=JAVA_HOME:$PATH
 
 # NVM loads slowly, moved to alias
 # export NVM_DIR="$HOME/.nvm"
 # . $(brew --prefix nvm)/nvm.sh
+
+# poetry
+export PATH="$HOME/.poetry/bin:$PATH"
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
@@ -126,9 +139,6 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
-
-# poetry
-export PATH="$HOME/.poetry/bin:$PATH"
 
 # z
 if command -v brew >/dev/null 2>&1; then
