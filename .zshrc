@@ -147,12 +147,6 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-# z
-if command -v brew >/dev/null 2>&1; then
-	# Load rupa's z if installed
-	[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh
-fi
-
 prompt_context() {}
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
