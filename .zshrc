@@ -79,6 +79,9 @@ plugins=(
 # Homebrew completions
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
 fi
 
 source $ZSH/oh-my-zsh.sh
@@ -111,7 +114,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias ohmyzsh="mate ~/.oh-my-zsh"s
 alias czshrc="code ~/.zshrc"
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias dotfiles="/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias gcom="git checkout master"
 alias loadnvm="export NVM_DIR="$HOME/.nvm" && . $(brew --prefix nvm)/nvm.sh"
 alias szshrc="source ~/.zshrc"
@@ -123,6 +126,9 @@ if [ -f /etc/profile ]; then
     PATH=""
     source /etc/profile
 fi
+
+# Homebrew
+eval $(/opt/homebrew/bin/brew shellenv)
 
 # Go
 export GOPATH=$HOME/go
@@ -151,3 +157,4 @@ prompt_context() {}
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+eval $(/opt/homebrew/bin/brew shellenv)
