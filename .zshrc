@@ -88,6 +88,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Homebrew
+eval $(/opt/homebrew/bin/brew shellenv)
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -126,9 +129,6 @@ if [ -f /etc/profile ]; then
     PATH=""
     source /etc/profile
 fi
-
-# Homebrew
-eval $(/opt/homebrew/bin/brew shellenv)
 
 # Go
 export GOPATH=$HOME/go
