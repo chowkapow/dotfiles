@@ -38,7 +38,7 @@
     "editorLineNumber.activeForeground": "#FFFFFF",
     "editorLineNumber.foreground": "#808080"
   },
-  "workbench.colorTheme": "Cobalt2",
+  "workbench.colorTheme": "Horizon Bold",
   "[yaml]": {
     "editor.formatOnSave": false
   }
