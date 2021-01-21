@@ -14,6 +14,8 @@ brew "git"
 brew "go"
 # Fast, highly customisable system info script
 brew "neofetch"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Manage multiple Node.js versions
 brew "nvm"
 # Object-relational database system
@@ -37,6 +39,7 @@ cask "flux"
 cask "flycut"
 cask "fork"
 cask "gitkraken"
+cask "google-backup-and-sync"
 cask "google-chrome"
 cask "iterm2"
 cask "karabiner-elements"
