@@ -10,18 +10,4 @@
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
   },
-  {
-    "key": "shift+enter",
-    "command": "-colonize.endline",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "shift+enter",
-    "command": "colonize.hold",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+e",
-    "command": "workbench.view.explorer"
-  }
 ]

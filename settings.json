@@ -16,7 +16,6 @@
   "git.enableSmartCommit": true,
   "go.useLanguageServer": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.eslintIntegration": true,
   "prettier.singleQuote": true,
   "python.formatting.provider": "black",
   "terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
@@ -39,6 +38,9 @@
     "editorLineNumber.foreground": "#808080"
   },
   "workbench.colorTheme": "Horizon Bold",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[yaml]": {
     "editor.formatOnSave": false
   }
