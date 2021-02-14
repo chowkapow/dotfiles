@@ -28,27 +28,50 @@ brew "zsh"
 brew "heroku/brew/heroku"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
+# View, print, and comment on PDF documents
 cask "adobe-acrobat-reader"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk11"
+# Application launcher and productivity software
 cask "alfred"
+# Tool to customize input devices and automate computer systems
 cask "bettertouchtool"
+# Voice and text chat software
 cask "discord"
+# App to build and share containerized applications and microservices
 cask "docker"
 cask "figma"
+# Web browser
+cask "firefox"
+# Screen color temperature controller
 cask "flux"
+# Clipboard manager for developers
 cask "flycut"
+# GIT client
 cask "fork"
+# Git client focusing on productivity
 cask "gitkraken"
 cask "google-backup-and-sync"
+# Web browser
 cask "google-chrome"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Keyboard customizer
 cask "karabiner-elements"
 cask "nosqlbooster-for-mongodb"
+# Open-source software for live streaming and screen recording
 cask "obs"
+# Collaboration platform for API development
 cask "postman"
+# Team communication and collaboration software
 cask "slack"
+# Music streaming service
 cask "spotify"
+# Configurable document editor that supports Markdown
 cask "typora"
+# Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
 cask "vlc"
+# Video communication and virtual meeting platform
 cask "zoom"
