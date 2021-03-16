@@ -252,6 +252,36 @@
                                     "key_code": "left_command"
                                 }
                             ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "pause"
+                            },
+                            "to": [
+                                {
+                                    "consumer_key_code": "volume_increment"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "print_screen"
+                            },
+                            "to": [
+                                {
+                                    "consumer_key_code": "mute"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "scroll_lock"
+                            },
+                            "to": [
+                                {
+                                    "consumer_key_code": "volume_decrement"
+                                }
+                            ]
                         }
                     ]
                 },
