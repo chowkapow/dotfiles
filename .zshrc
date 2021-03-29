@@ -115,13 +115,15 @@ source $ZSH/oh-my-zsh.sh
 alias czshrc="code ~/.zshrc"
 alias dotfiles="/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias gcom="git checkout master"
+alias rpi="ssh pi@raspberrypi.local"
 alias szshrc="source ~/.zshrc"
+alias updatepkg="brew upgrade; brew cleanup; omz update"
 alias vi="nvim"
 alias vim="nvim"
 
 # Java
-# export JAVA_HOME=$(/usr/libexec/java_home)
-# export PATH=JAVA_HOME:$PATH
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=JAVA_HOME:$PATH
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
