@@ -40,6 +40,7 @@ cask "bettertouchtool"
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Collaborative team software
 cask "figma"
 # Web browser
 cask "firefox"

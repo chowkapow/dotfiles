@@ -43,5 +43,6 @@
   },
   "[yaml]": {
     "editor.formatOnSave": false
-  }
+  },
+  "debug.javascript.autoAttachFilter": "disabled"
 }
