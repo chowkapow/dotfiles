@@ -3,6 +3,7 @@ tap "beeftornado/rmtree"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "mongodb/brew"
@@ -19,7 +20,7 @@ brew "neovim"
 # Manage multiple Node.js versions
 brew "nvm"
 # Object-relational database system
-brew "postgresql"
+brew "postgresql", restart_service: true
 # Python version management
 brew "pyenv"
 # UNIX shell (command interpreter)
@@ -36,6 +37,8 @@ cask "adoptopenjdk11"
 cask "alfred"
 # Tool to customize input devices and automate computer systems
 cask "bettertouchtool"
+# Database management and analysis tool
+cask "dbvisualizer"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
@@ -43,15 +46,14 @@ cask "docker"
 # Collaborative team software
 cask "figma"
 # Web browser
-cask "firefox"
+cask "firefox-developer-edition"
 # Screen color temperature controller
 cask "flux"
 # Clipboard manager for developers
 cask "flycut"
 # GIT client
 cask "fork"
-# Git client focusing on productivity
-cask "gitkraken"
+# Back up and sync files with Google Drive
 cask "google-backup-and-sync"
 # Web browser
 cask "google-chrome"
@@ -59,6 +61,7 @@ cask "google-chrome"
 cask "iterm2"
 # Keyboard customizer
 cask "karabiner-elements"
+# GUI tool and IDE for MongoDB
 cask "nosqlbooster-for-mongodb"
 # Open-source software for live streaming and screen recording
 cask "obs"
