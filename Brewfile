@@ -13,6 +13,10 @@ brew "bat"
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Open-source distributed event streaming platform
+brew "kafka"
+# Java-based project management
+brew "maven"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -20,7 +24,7 @@ brew "neovim"
 # Manage multiple Node.js versions
 brew "nvm"
 # Object-relational database system
-brew "postgresql", restart_service: true
+brew "postgresql"
 # Python version management
 brew "pyenv"
 # UNIX shell (command interpreter)
@@ -53,10 +57,10 @@ cask "flux"
 cask "flycut"
 # GIT client
 cask "fork"
-# Back up and sync files with Google Drive
-cask "google-backup-and-sync"
 # Web browser
 cask "google-chrome"
+# IDE for Java development - community edition
+cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Keyboard customizer
