@@ -37,8 +37,6 @@ brew "mongodb/brew/mongodb-community"
 cask "adobe-acrobat-reader"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk11"
-# Application launcher and productivity software
-cask "alfred"
 # Tool to customize input devices and automate computer systems
 cask "bettertouchtool"
 # Database management and analysis tool
