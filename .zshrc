@@ -124,6 +124,7 @@ alias vim="nvim"
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=JAVA_HOME:$PATH
+export PATH=/opt/homebrew/Cellar/maven/3.8.3/bin:$PATH
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
