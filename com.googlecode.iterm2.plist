@@ -6,6 +6,8 @@
 	<true/>
 	<key>AllowClipboardAccess</key>
 	<false/>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>AnimateDimming</key>
 	<false/>
 	<key>AutoHideTmuxClientSession</key>
@@ -1527,6 +1529,8 @@
 				<integer>13</integer>
 				<key>Screen</key>
 				<integer>0</integer>
+				<key>Scroller Width</key>
+				<real>15</real>
 				<key>Selected Tab Index</key>
 				<integer>0</integer>
 				<key>Tabs</key>
@@ -2444,11 +2448,15 @@
 											<string>/Users/ericchow/Code</string>
 										</dict>
 										<key>Columns</key>
-										<integer>80</integer>
+										<integer>81</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
-										<array/>
+										<array>
+											<string>/Users/ericchow/Code</string>
+											<string>/Users/ericchow/Code</string>
+											<string>/Users/ericchow/Code</string>
+										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
@@ -2501,7 +2509,7 @@
 										<key>height</key>
 										<real>454</real>
 										<key>width</key>
-										<real>665</real>
+										<real>673</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -2516,7 +2524,7 @@
 								<key>height</key>
 								<real>454</real>
 								<key>width</key>
-								<real>665</real>
+								<real>673</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -2559,13 +2567,13 @@
 				<key>Use Transparency</key>
 				<true/>
 				<key>Width</key>
-				<real>665</real>
+				<real>673</real>
 				<key>Window Type</key>
 				<integer>13</integer>
 				<key>X Origin</key>
-				<real>656</real>
+				<real>928</real>
 				<key>Y Origin</key>
-				<real>297</real>
+				<real>569</real>
 			</dict>
 		</array>
 	</dict>

@@ -30,7 +30,7 @@ brew "pyenv"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Everything you need to get started with Heroku
-brew "heroku/brew/heroku"
+brew "heroku/brew/heroku", link: false
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
 # View, print, and comment on PDF documents
