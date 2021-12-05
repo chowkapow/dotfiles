@@ -113,7 +113,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias czshrc="code ~/.zshrc"
-alias dotfiles="/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias dotfiles="/opt/homebrew/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias gcom="git checkout master"
 alias rpi="ssh pi@raspberrypi.local"
 alias szshrc="source ~/.zshrc"
@@ -127,8 +127,8 @@ export PATH=JAVA_HOME:$PATH
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
-  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # poetry
 export PATH="$HOME/.poetry/bin:$PATH"
@@ -143,3 +143,6 @@ prompt_context() {}
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Homebrew
+eval $(/opt/homebrew/bin/brew shellenv)

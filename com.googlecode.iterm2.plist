@@ -1530,7 +1530,7 @@
 				<key>Screen</key>
 				<integer>0</integer>
 				<key>Scroller Width</key>
-				<real>15</real>
+				<real>0.0</real>
 				<key>Selected Tab Index</key>
 				<integer>0</integer>
 				<key>Tabs</key>
@@ -1539,7 +1539,7 @@
 						<key>Root</key>
 						<dict>
 							<key>Splitter ID</key>
-							<string>D587815F-7184-44E6-B154-2640A1817C36</string>
+							<string>C6367716-05C7-41DF-ABC5-EAFC22D9989D</string>
 							<key>Subviews</key>
 							<array>
 								<dict>
@@ -2448,13 +2448,11 @@
 											<string>/Users/ericchow/Code</string>
 										</dict>
 										<key>Columns</key>
-										<integer>81</integer>
+										<integer>80</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/ericchow/Code</string>
-											<string>/Users/ericchow/Code</string>
 											<string>/Users/ericchow/Code</string>
 										</array>
 										<key>Environment</key>
@@ -2485,7 +2483,7 @@
 										<key>Rows</key>
 										<integer>25</integer>
 										<key>Session GUID</key>
-										<string>A13F06D2-6F78-4A95-846A-1F58B74DA74D</string>
+										<string>E165F389-13E4-4151-81A5-DC91786CAB90</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -2509,7 +2507,7 @@
 										<key>height</key>
 										<real>454</real>
 										<key>width</key>
-										<real>673</real>
+										<real>650</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -2524,7 +2522,7 @@
 								<key>height</key>
 								<real>454</real>
 								<key>width</key>
-								<real>673</real>
+								<real>650</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -2534,11 +2532,11 @@
 							<false/>
 						</dict>
 						<key>Tab GUID</key>
-						<string>6F5A228E-1C63-4937-A171-19A9BAD18AA9</string>
+						<string>AC1F450F-3631-47D6-A4E5-5383812B3DC0</string>
 					</dict>
 				</array>
 				<key>TerminalGuid</key>
-				<string>pty-50312501-09D6-4D11-B82A-A5A07953B389</string>
+				<string>pty-B662272A-09F7-40B5-9EF7-155FFE4EECD6</string>
 				<key>Toolbelt</key>
 				<dict>
 					<key>Profiles</key>
@@ -2567,13 +2565,13 @@
 				<key>Use Transparency</key>
 				<true/>
 				<key>Width</key>
-				<real>673</real>
+				<real>650</real>
 				<key>Window Type</key>
 				<integer>13</integer>
 				<key>X Origin</key>
-				<real>928</real>
+				<real>529</real>
 				<key>Y Origin</key>
-				<real>569</real>
+				<real>301</real>
 			</dict>
 		</array>
 	</dict>
