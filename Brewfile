@@ -73,8 +73,6 @@ cask "postman"
 cask "slack"
 # Music streaming service
 cask "spotify"
-# Configurable document editor that supports Markdown
-cask "typora"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
