@@ -1129,7 +1129,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>MesloLGS-NF-Regular 14</string>
+			<string>MesloLGS-NF-Regular 13</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Option Key Sends</key>
@@ -1143,7 +1143,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Scrollback With Status Bar</key>
 			<false/>
 			<key>Scrollback in Alternate Screen</key>
@@ -1388,7 +1388,7 @@
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
-			<false/>
+			<true/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -1516,7 +1516,7 @@
 				<key>Has Toolbelt</key>
 				<false/>
 				<key>Height</key>
-				<real>513</real>
+				<real>413</real>
 				<key>Hide After Opening</key>
 				<false/>
 				<key>Hiding Toolbelt Should Resize Window</key>
@@ -1539,7 +1539,7 @@
 						<key>Root</key>
 						<dict>
 							<key>Splitter ID</key>
-							<string>C6367716-05C7-41DF-ABC5-EAFC22D9989D</string>
+							<string>ADF4418B-5540-477D-B788-C304F0418BC7</string>
 							<key>Subviews</key>
 							<array>
 								<dict>
@@ -2168,7 +2168,7 @@
 											<key>Non-ASCII Anti Aliased</key>
 											<true/>
 											<key>Normal Font</key>
-											<string>MesloLGS-NF-Regular 14</string>
+											<string>MesloLGS-NF-Regular 11</string>
 											<key>Only The Default BG Color Uses Transparency</key>
 											<true/>
 											<key>Option Key Sends</key>
@@ -2453,7 +2453,7 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/ericchow/Code</string>
+											<string>/</string>
 										</array>
 										<key>Environment</key>
 										<dict>
@@ -2483,7 +2483,7 @@
 										<key>Rows</key>
 										<integer>25</integer>
 										<key>Session GUID</key>
-										<string>E165F389-13E4-4151-81A5-DC91786CAB90</string>
+										<string>BAB65F5E-9E6D-46A1-A886-148D3D1AAD64</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -2496,7 +2496,7 @@
 											<string>$$</string>
 										</dict>
 										<key>Working Directory</key>
-										<string>/Users/ericchow/Code</string>
+										<string>/</string>
 										<key>Working Directory Poller Disabled</key>
 										<false/>
 									</dict>
@@ -2505,9 +2505,9 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>454</real>
+										<real>354</real>
 										<key>width</key>
-										<real>650</real>
+										<real>570</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -2520,9 +2520,9 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>454</real>
+								<real>354</real>
 								<key>width</key>
-								<real>650</real>
+								<real>570</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -2532,11 +2532,11 @@
 							<false/>
 						</dict>
 						<key>Tab GUID</key>
-						<string>AC1F450F-3631-47D6-A4E5-5383812B3DC0</string>
+						<string>1366577A-C61F-4893-A6BD-51C7F128DCFC</string>
 					</dict>
 				</array>
 				<key>TerminalGuid</key>
-				<string>pty-B662272A-09F7-40B5-9EF7-155FFE4EECD6</string>
+				<string>pty-3443729D-01FD-4E79-8677-2C7F33842A54</string>
 				<key>Toolbelt</key>
 				<dict>
 					<key>Profiles</key>
@@ -2565,13 +2565,13 @@
 				<key>Use Transparency</key>
 				<true/>
 				<key>Width</key>
-				<real>650</real>
+				<real>570</real>
 				<key>Window Type</key>
 				<integer>13</integer>
 				<key>X Origin</key>
-				<real>529</real>
+				<real>563</real>
 				<key>Y Origin</key>
-				<real>301</real>
+				<real>353</real>
 			</dict>
 		</array>
 	</dict>
