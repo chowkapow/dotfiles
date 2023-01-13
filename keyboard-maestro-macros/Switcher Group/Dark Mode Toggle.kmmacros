@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>687980444.56536603</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>2688</integer>
+						<key>DarkModeAction</key>
+						<string>Toggle</string>
+						<key>MacroActionType</key>
+						<string>DarkMode</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>688097623.46536899</real>
+				<key>CustomIconData</key>
+				<string>KMEP-OpacityTransparent</string>
+				<key>ModificationDate</key>
+				<real>688097746.40414596</real>
+				<key>Name</key>
+				<string>Dark Mode Toggle</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;dm</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C80C603D-EDA1-4A25-AA7D-74EE4291A4F4</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Switcher Group</string>
+		<key>ToggleMacroUID</key>
+		<string>5A09392D-6FCA-494A-8A1F-B46D1A9480F3</string>
+		<key>UID</key>
+		<string>F880C574-20B4-4DB2-B48E-B3F7474D524E</string>
+	</dict>
+</array>
+</plist>

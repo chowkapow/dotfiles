@@ -20,17 +20,21 @@ brew "maven"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
+brew "neovim", args: ["HEAD"]
 # Manage multiple Node.js versions
 brew "nvm"
 # Object-relational database system
-brew "postgresql"
+brew "postgresql@14"
 # Python version management
 brew "pyenv"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Terminal multiplexer
+brew "tmux"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Everything you need to get started with Heroku
-brew "heroku/brew/heroku", link: false
+brew "heroku/brew/heroku"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
 # View, print, and comment on PDF documents
@@ -51,8 +55,6 @@ cask "figma"
 cask "firefox-developer-edition"
 # Screen color temperature controller
 cask "flux"
-# Clipboard manager for developers
-cask "flycut"
 # GIT client
 cask "fork"
 # Web browser

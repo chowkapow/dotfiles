@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>688079477.61556005</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>2259</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>%ICUDateTime%MM-dd-yy%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>688079596.51188004</real>
+				<key>ModificationDate</key>
+				<real>688079824.77350402</real>
+				<key>Name</key>
+				<string>Date Text</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;dt</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7AD8ADC2-1CD7-49AA-B85C-DBE5B0DE8068</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text</string>
+		<key>ToggleMacroUID</key>
+		<string>546543F9-3B64-463E-AD62-9087C385325D</string>
+		<key>UID</key>
+		<string>88A1ACB7-13BF-4E64-94CB-948243FE6D32</string>
+	</dict>
+</array>
+</plist>
