@@ -114,32 +114,28 @@ source $ZSH/oh-my-zsh.sh
 alias czshrc="code ~/.zshrc"
 alias dotfiles="/opt/homebrew/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias gcom="git checkout master"
-alias rpi="ssh pi@raspberrypi.local"
 alias szshrc="source ~/.zshrc"
 alias updatepkg="brew upgrade; brew cleanup; omz update"
 alias vi="nvim"
 alias vim="nvim"
-
-# Java
-export JAVA_HOME=$(/usr/libexec/java_home)
-export PATH=JAVA_HOME:$PATH
-export PATH=/opt/homebrew/Cellar/maven/3.8.3/bin:$PATH
-
-# NVM
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
-# pyenv
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init --path)"
-  eval "$(pyenv init -)"
-fi
-
-prompt_context() {}
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Homebrew
 eval $(/opt/homebrew/bin/brew shellenv)
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# NVM
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Postgresql
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"

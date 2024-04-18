@@ -2,82 +2,100 @@ tap "adoptopenjdk/openjdk"
 tap "beeftornado/rmtree"
 tap "heroku/brew"
 tap "homebrew/bundle"
-tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
 tap "homebrew/services"
+tap "jesseduffield/lazygit"
 tap "mongodb/brew"
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
 # Distributed revision control system
 brew "git"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Open-source distributed event streaming platform
-brew "kafka"
-# Java-based project management
-brew "maven"
-# Fast, highly customisable system info script
-brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
-brew "neovim", args: ["HEAD"]
+brew "neovim"
 # Manage multiple Node.js versions
 brew "nvm"
 # Object-relational database system
-brew "postgresql@14"
+brew "postgresql@16", restart_service: true
 # Python version management
 brew "pyenv"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Terminal multiplexer
-brew "tmux"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Everything you need to get started with Heroku
-brew "heroku/brew/heroku"
-# High-performance, schema-free, document-oriented database
-brew "mongodb/brew/mongodb-community"
+# A simple terminal UI for git commands, written in Go
+brew "jesseduffield/lazygit/lazygit"
 # View, print, and comment on PDF documents
 cask "adobe-acrobat-reader"
-# AdoptOpenJDK OpenJDK (Java) Development Kit
-cask "adoptopenjdk11"
-# Tool to customize input devices and automate computer systems
+# Tool to customise input devices and automate computer systems
 cask "bettertouchtool"
-# Database management and analysis tool
-cask "dbvisualizer"
+# Web browser focusing on privacy
+cask "brave-browser"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerized applications and microservices
+# App to build and share containerised applications and microservices
 cask "docker"
 # Collaborative team software
 cask "figma"
 # Web browser
 cask "firefox-developer-edition"
-# Screen color temperature controller
+# Screen colour temperature controller
 cask "flux"
-# GIT client
-cask "fork"
-# Web browser
-cask "google-chrome"
-# IDE for Java development - community edition
-cask "intellij-idea-ce"
+# Developer targeted fonts with a high number of glyphs
+cask "font-hack-nerd-font"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Keyboard customizer
+# Keyboard customiser
 cask "karabiner-elements"
-# GUI tool and IDE for MongoDB
-cask "nosqlbooster-for-mongodb"
+# Blocks all Keyboard and TouchBar input
+cask "keyboardcleantool"
+# Open-source keystroke visualiser
+cask "keycastr"
+# Free cross-platform office suite, fresh version
+cask "libreoffice"
+# Calculator and converter application
+cask "numi"
 # Open-source software for live streaming and screen recording
 cask "obs"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Administration and development platform for PostgreSQL
+cask "pgadmin4"
 # Collaboration platform for API development
 cask "postman"
+# Screenshot measurement and annotation tool
+cask "shottr"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
 cask "spotify"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 # Video communication and virtual meeting platform
 cask "zoom"
+vscode "astro-build.astro-vscode"
+vscode "bradlc.vscode-tailwindcss"
+vscode "christian-kohler.path-intellisense"
+vscode "dbaeumer.vscode-eslint"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "ms-azuretools.vscode-docker"
+vscode "oderwat.indent-rainbow"
+vscode "pranaygp.vscode-css-peek"
+vscode "robbowen.synthwave-vscode"
+vscode "shd101wyy.markdown-preview-enhanced"
+vscode "stylelint.vscode-stylelint"
+vscode "ue.alphabetical-sorter"
+vscode "vscodevim.vim"
