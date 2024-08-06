@@ -206,7 +206,7 @@
                         ]
                     },
                     {
-                        "description": "right_command -> left_control + left_alt + spacebar, for switch to last used input type in mac OS.",
+                        "description": "right_command -> left_control + spacebar, for switch to last used input type in mac OS.",
                         "manipulators": [
                             {
                                 "from": {
@@ -226,8 +226,7 @@
                                     {
                                         "key_code": "spacebar",
                                         "modifiers": [
-                                            "left_control",
-                                            "left_option"
+                                            "left_control"
                                         ]
                                     }
                                 ],
@@ -236,7 +235,7 @@
                         ]
                     },
                     {
-                        "description": "right_option -> left_control + spacebar, for switch input type in mac OS.",
+                        "description": "right_option -> left_control + left_alt + spacebar, for switch input type in mac OS.",
                         "manipulators": [
                             {
                                 "from": {
@@ -256,7 +255,8 @@
                                     {
                                         "key_code": "spacebar",
                                         "modifiers": [
-                                            "left_control"
+                                            "left_control",
+                                            "left_option"
                                         ]
                                     }
                                 ],

@@ -1,12 +1,7 @@
 tap "adoptopenjdk/openjdk"
-tap "beeftornado/rmtree"
-tap "heroku/brew"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
 tap "homebrew/services"
 tap "jesseduffield/lazygit"
-tap "mongodb/brew"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Modern, maintained replacement for ls
@@ -63,7 +58,6 @@ cask "figma"
 cask "firefox@developer-edition"
 # Screen colour temperature controller
 cask "flux"
-cask "font-meslo-lg-nerd-font"
 # Free and open-source media player
 cask "iina"
 # IDE for Java development - community edition
@@ -102,17 +96,3 @@ cask "visual-studio-code"
 cask "wezterm"
 # Video communication and virtual meeting platform
 cask "zoom"
-vscode "astro-build.astro-vscode"
-vscode "bradlc.vscode-tailwindcss"
-vscode "christian-kohler.path-intellisense"
-vscode "dbaeumer.vscode-eslint"
-vscode "eamodio.gitlens"
-vscode "esbenp.prettier-vscode"
-vscode "ms-azuretools.vscode-docker"
-vscode "oderwat.indent-rainbow"
-vscode "pranaygp.vscode-css-peek"
-vscode "robbowen.synthwave-vscode"
-vscode "shd101wyy.markdown-preview-enhanced"
-vscode "stylelint.vscode-stylelint"
-vscode "ue.alphabetical-sorter"
-vscode "vscodevim.vim"

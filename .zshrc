@@ -118,8 +118,6 @@ alias szshrc="source ~/.zshrc"
 alias cnvim="nvim ~/.config/nvim/"
 alias dotfiles="/opt/homebrew/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias updatepkg="brew upgrade; brew cleanup; omz update"
-alias vi="nvim"
-alias vim="nvim"
 alias ls="eza --icons=always"
 alias cd="z"
 
