@@ -83,6 +83,8 @@ if type brew &>/dev/null; then
   compinit
 fi
 
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -111,13 +113,15 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias czshrc="code ~/.zshrc"
-alias dotfiles="/opt/homebrew/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
-alias gcom="git checkout master"
+alias czshrc="nvim ~/.zshrc"
 alias szshrc="source ~/.zshrc"
+alias cnvim="nvim ~/.config/nvim/"
+alias dotfiles="/opt/homebrew/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias updatepkg="brew upgrade; brew cleanup; omz update"
 alias vi="nvim"
 alias vim="nvim"
+alias ls="eza --icons=always"
+alias cd="z"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -139,3 +143,18 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 # Postgresql
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+
+# History setup
+HISTFILE=$HOME/.zhistory
+SAVEHIST=1000
+HISTSIZE=999
+setopt share_history
+setopt hist_expire_dups_first
+setopt hist_ignore_dups
+setopt hist_verify
+# Completion using arrow keys (based on history)
+bindkey '^[[A' history-search-backward
+bindkey '^[[B' history-search-forward
+
+# ---- Zoxide (better cd) ----
+eval "$(zoxide init zsh)"
