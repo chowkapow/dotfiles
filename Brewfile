@@ -7,8 +7,14 @@ tap "homebrew/cask-versions"
 tap "homebrew/services"
 tap "jesseduffield/lazygit"
 tap "mongodb/brew"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Modern, maintained replacement for ls
+brew "eza"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
@@ -29,12 +35,20 @@ brew "postgresql@16", restart_service: true
 brew "pyenv"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Terminal multiplexer
+brew "tmux"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
 # A simple terminal UI for git commands, written in Go
 brew "jesseduffield/lazygit/lazygit"
 # View, print, and comment on PDF documents
 cask "adobe-acrobat-reader"
+# Chromium based browser
+cask "arc"
 # Tool to customise input devices and automate computer systems
 cask "bettertouchtool"
 # Web browser focusing on privacy
@@ -46,11 +60,14 @@ cask "docker"
 # Collaborative team software
 cask "figma"
 # Web browser
-cask "firefox-developer-edition"
+cask "firefox@developer-edition"
 # Screen colour temperature controller
 cask "flux"
-# Developer targeted fonts with a high number of glyphs
-cask "font-hack-nerd-font"
+cask "font-meslo-lg-nerd-font"
+# Free and open-source media player
+cask "iina"
+# IDE for Java development - community edition
+cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Keyboard customiser
@@ -81,8 +98,8 @@ cask "spotify"
 cask "temurin"
 # Open-source code editor
 cask "visual-studio-code"
-# Multimedia player
-cask "vlc"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm"
 # Video communication and virtual meeting platform
 cask "zoom"
 vscode "astro-build.astro-vscode"
