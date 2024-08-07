@@ -26,6 +26,8 @@ brew "neovim"
 brew "nvm"
 # Object-relational database system
 brew "postgresql@16", restart_service: true
+# Theme for zsh
+brew "powerlevel10k"
 # Python version management
 brew "pyenv"
 # Search tool like grep and The Silver Searcher
@@ -36,6 +38,8 @@ brew "tmux"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
 # A simple terminal UI for git commands, written in Go
@@ -66,6 +70,8 @@ cask "intellij-idea-ce"
 cask "iterm2"
 # Keyboard customiser
 cask "karabiner-elements"
+# Automation software
+cask "keyboard-maestro"
 # Blocks all Keyboard and TouchBar input
 cask "keyboardcleantool"
 # Open-source keystroke visualiser
