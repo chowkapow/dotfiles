@@ -19,7 +19,7 @@ config.colors = {
 	brights = { "#214969", "#E52E2E", "#44FFB1", "#FFE073", "#A277FF", "#a277ff", "#24EAF7", "#24EAF7" },
 }
 
-config.font = wezterm.font("MesloLGS Nerd Font Mono")
+config.font = wezterm.font("Inconsolata Nerd Font Mono")
 config.font_size = 19
 
 config.enable_tab_bar = false
@@ -27,6 +27,8 @@ config.enable_tab_bar = false
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.75
 config.macos_window_background_blur = 8
+
+config.window_close_confirmation = "NeverPrompt"
 
 -- and finally, return the configuration to wezterm
 return config
