@@ -62,8 +62,6 @@ cask "firefox@developer-edition"
 cask "intellij-idea-ce"
 # Keyboard customiser
 cask "karabiner-elements"
-# Automation software
-cask "keyboard-maestro"
 # Administration and development platform for PostgreSQL
 cask "pgadmin4"
 # Collaboration platform for API development
