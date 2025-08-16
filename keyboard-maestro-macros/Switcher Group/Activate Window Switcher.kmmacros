@@ -16,19 +16,17 @@
 						<key>ActionUID</key>
 						<integer>6</integer>
 						<key>Alpha</key>
-						<integer>70</integer>
+						<integer>50</integer>
 						<key>Blue</key>
-						<integer>128</integer>
+						<integer>133</integer>
 						<key>Green</key>
-						<integer>128</integer>
-						<key>IsDisclosed</key>
-						<false/>
+						<integer>29</integer>
 						<key>MacroActionType</key>
 						<string>WindowSwitcher</string>
 						<key>MouseRollover</key>
 						<true/>
 						<key>Red</key>
-						<integer>0</integer>
+						<integer>15</integer>
 						<key>SortAlphabetically</key>
 						<false/>
 						<key>SwitcherUnderMouse</key>
@@ -38,7 +36,7 @@
 				<key>CreationDate</key>
 				<real>687980444.559214</real>
 				<key>ModificationDate</key>
-				<real>687985850.13556504</real>
+				<real>697803148.36132395</real>
 				<key>Triggers</key>
 				<array>
 					<dict>

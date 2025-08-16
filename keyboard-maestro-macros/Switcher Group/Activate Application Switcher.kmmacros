@@ -18,13 +18,13 @@
 						<key>Alpha</key>
 						<integer>50</integer>
 						<key>Blue</key>
-						<integer>128</integer>
+						<integer>117</integer>
 						<key>Green</key>
-						<integer>128</integer>
+						<integer>29</integer>
 						<key>HideOthers</key>
 						<false/>
 						<key>IconSize</key>
-						<integer>64</integer>
+						<integer>128</integer>
 						<key>IncludedApplications</key>
 						<array/>
 						<key>MacroActionType</key>
@@ -32,7 +32,7 @@
 						<key>MouseRollover</key>
 						<true/>
 						<key>Red</key>
-						<integer>0</integer>
+						<integer>17</integer>
 						<key>SortOrder</key>
 						<string>SortByUse</string>
 						<key>SwitcherUnderMouse</key>
@@ -44,7 +44,7 @@
 				<key>CreationDate</key>
 				<real>687980444.55900002</real>
 				<key>ModificationDate</key>
-				<real>695283152.16533196</real>
+				<real>697798384.79739702</real>
 				<key>Triggers</key>
 				<array>
 					<dict>
