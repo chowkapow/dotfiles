@@ -6,6 +6,8 @@ tap "jesseduffield/lazygit"
 brew "eza"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # Distributed revision control system
@@ -18,12 +20,12 @@ brew "neovim"
 brew "nvm"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
-# Theme for zsh
-brew "powerlevel10k"
 # Python version management
 brew "pyenv"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Terminal multiplexer
 brew "tmux"
 # Blazing fast terminal file manager written in Rust, based on async I/O
