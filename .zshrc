@@ -157,6 +157,3 @@ function y() {
 
 # Set default editor to Neovim
 export EDITOR=nvim
-
-# Cursor CLI
-export PATH="$HOME/.local/bin:$PATH"
